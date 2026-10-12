@@ -4,8 +4,8 @@ BSIT, Second Year, University of the Cordilleras
 
 Open index.html in a modern web browser. The home page links to the portfolio
 pages and the separate HTML laboratory activities. This project uses plain HTML.
-The existing repository root is used for the assignment. The original duplicated
-WebTech folder and the original HTML examples have been preserved.
+The assignment files are at the repository root. Duplicate nested project
+folders have been removed. The original root HTML examples are preserved.
 
 Forms demonstrate HTML controls and validation. There is no account database or
 message delivery service. The registration form requires a server that accepts
