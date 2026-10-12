@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <nav>
+        <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="education.html">EDUCATION</a> | <a href="skills.html">SKILLS</a> | <a href="contact.html">CONTACT</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+            <p>This HTML form demonstrates contact fields and validation. It does not send messages.</p>
+            <form action="contact.html" method="get">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required maxlength="100">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required maxlength="150">
+                </p>
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" required maxlength="2000"></textarea>
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>John Alexander Apuan | Web Technology</p>
+    </footer>
+</body>
+</html>
